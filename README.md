@@ -2,7 +2,7 @@
 Code, pre-train model and factsheet of RepRFN for NTIRE 2023 Challenge on Efficient Super-Resolution. Our team ID is 7.
 
 ## How to test the model?
-1. `git clone `
+1. `git clone https://github.com/laonafahaodange/NTIRE2023-ESR-RepRFN.git`
 2. Set the `--model_id 0` / `--model_id 7` to test the baseline / RepRFN model from [`run.sh`](./run.sh)
     ```bash
     CUDA_VISIBLE_DEVICES=0 python test_demo.py --data_dir [path to your data dir] --save_dir [path to your save dir] --model_id 0
